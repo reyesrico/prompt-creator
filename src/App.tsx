@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import {
   ArrowRight, Check, ChevronDown, ChevronLeft, CircleHelp, Copy, Download, GitFork, Globe2,
   Lightbulb, Mail, Menu, Moon, Pencil, Plus, Send, ShieldCheck, Sparkles, Square,
@@ -16,6 +16,7 @@ type Session = { brief: string; projectType: ProjectType }
 type Theme = 'light' | 'dark'
 
 function App() {
+  const languagePickerRef = useRef<HTMLDivElement>(null)
   const [theme, setTheme] = useState<Theme>(() =>
     window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light',
   )
@@ -35,6 +36,24 @@ function App() {
   const [dialog, setDialog] = useState<'how' | 'about' | null>(null)
   const t = (key: CopyKey) => translations[language][key]
   const errors = validateMarkdown(prompt)
+
+  useEffect(() => {
+    if (!languageOpen) return
+
+    const closeOnOutsidePress = (event: PointerEvent) => {
+      if (!languagePickerRef.current?.contains(event.target as Node)) setLanguageOpen(false)
+    }
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setLanguageOpen(false)
+    }
+
+    document.addEventListener('pointerdown', closeOnOutsidePress)
+    document.addEventListener('keydown', closeOnEscape)
+    return () => {
+      document.removeEventListener('pointerdown', closeOnOutsidePress)
+      document.removeEventListener('keydown', closeOnEscape)
+    }
+  }, [languageOpen])
 
   const begin = (idea = brief) => {
     if (!idea.trim()) return
@@ -114,7 +133,7 @@ function App() {
         <nav className="nav-actions" aria-label="Primary navigation">
           <button className="text-button desktop-only" onClick={() => setDialog('how')}><CircleHelp size={17} />{t('how')}</button>
           <button className="text-button desktop-only" onClick={() => setDialog('about')}>{t('about')}</button>
-          <div className="language-picker">
+          <div className="language-picker" ref={languagePickerRef}>
             <button
               className="language-trigger"
               onClick={() => setLanguageOpen((current) => !current)}
