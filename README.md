@@ -16,8 +16,8 @@ The app is designed for professionals across finance, health, science, technolog
 - Editable preview with the option to add more details
 - Strict checks for required sections and unclosed Markdown code fences
 - Safe `.md` export and one-click clipboard copy
-- English, Spanish, French, German, Chinese, and Arabic UI, including RTL layout
-- User-controlled light and dark themes initialized from the operating-system preference
+- English, Spanish, French, German, Chinese, and Arabic UI and generated prompts, including RTL layout
+- User-controlled light and dark themes initialized from local daytime (light from 07:00 to 18:59)
 - Built-in instructions and a complete marketing performance dashboard example
 - No database, accounts, analytics, server calls, or browser storage
 
@@ -29,7 +29,7 @@ All processing happens in the browser. Ideas, answers, and generated prompts exi
 
 The generated format follows common prompt-engineering guidance: clearly define the role, provide context, state the objective, identify the audience, specify requirements and constraints, describe expected deliverables, and define success criteria. It also instructs the receiving AI to state assumptions, ask only consequential questions, use plain language, and flag regulated or high-risk decisions for expert review.
 
-Domain templates are intentionally public TypeScript source in [`src/prompt.ts`](src/prompt.ts). Interface translations are public in [`src/i18n.ts`](src/i18n.ts).
+Domain templates and translated prompt content are intentionally public TypeScript source in [`src/promptContent.ts`](src/promptContent.ts). Interface translations are public in [`src/i18n.ts`](src/i18n.ts).
 
 ## Development
 
@@ -49,9 +49,12 @@ npm run build
 
 ## Project Structure
 
-- `src/App.tsx` — guided workflow and UI
+- `src/App.tsx` — workflow state and view orchestration
+- `src/components/` — header, workflow views, results, and dialogs
 - `src/prompt.ts` — classification, generation, sanitization, and validation
+- `src/promptContent.ts` — six-language generated-prompt content
 - `src/i18n.ts` — six-language interface copy
+- `src/theme.ts` — local-time theme selection
 - `src/App.css` — responsive application design
 
 ## Contact

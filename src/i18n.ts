@@ -10,7 +10,7 @@ export const translations = {
     use1: 'Describe your idea in your own words.', use2: 'Answer only the questions that improve it.', use3: 'Review, edit, and safely export your prompt.',
     exampleTitle: 'Example: marketing performance dashboard', exampleText: 'Combine campaign reports to compare spend, leads, conversions, revenue, and return on investment.',
     close: 'Close', created: 'Created by Carlos Reyes', contact: 'Contact on GitHub', words: 'words', answer: 'Type your answer here...',
-    currentIdea: 'Current idea', aboutDescription: 'A free, privacy-first tool that turns experience and ideas into structured instructions for AI. No account, database, or tracking is required.', openIssue: 'Open an issue',
+    currentIdea: 'Current idea', additionalContext: 'Additional Context', aboutDescription: 'A free, privacy-first tool that turns experience and ideas into structured instructions for AI. No account, database, or tracking is required.', openIssue: 'Open an issue',
     q1: 'Who will use this project, and what should be accessible or easy for them?', q2: 'What is the most important result this project should achieve?',
     q3: 'Which capabilities or deliverables are essential?', q4: 'What information, expertise, or materials can you provide?',
     q5: 'Are there limits around time, budget, technology, privacy, safety, or regulation?', q6: 'How will you know the result is useful and successful?',
@@ -26,7 +26,7 @@ export const translations = {
     use1: 'Describe tu idea con tus propias palabras.', use2: 'Responde solo las preguntas que la mejoran.', use3: 'Revisa, edita y exporta tu prompt con seguridad.',
     exampleTitle: 'Ejemplo: panel de rendimiento de marketing', exampleText: 'Combina informes de campañas para comparar inversión, clientes potenciales, conversiones, ingresos y retorno de inversión.',
     close: 'Cerrar', created: 'Creado por Carlos Reyes', contact: 'Contactar en GitHub', words: 'palabras', answer: 'Escribe tu respuesta aquí...',
-    currentIdea: 'Idea actual', aboutDescription: 'Una herramienta gratuita y privada que convierte experiencias e ideas en instrucciones estructuradas para la IA. No requiere cuenta, base de datos ni seguimiento.', openIssue: 'Abrir una incidencia',
+    currentIdea: 'Idea actual', additionalContext: 'Contexto adicional', aboutDescription: 'Una herramienta gratuita y privada que convierte experiencias e ideas en instrucciones estructuradas para la IA. No requiere cuenta, base de datos ni seguimiento.', openIssue: 'Abrir una incidencia',
     q1: '¿Quién usará este proyecto y qué debería ser accesible o fácil para esas personas?', q2: '¿Cuál es el resultado más importante que debe lograr?',
     q3: '¿Qué funciones o entregables son esenciales?', q4: '¿Qué información, experiencia o materiales puedes aportar?',
     q5: '¿Hay límites de tiempo, presupuesto, tecnología, privacidad, seguridad o regulación?', q6: '¿Cómo sabrás que el resultado es útil y exitoso?',
@@ -42,7 +42,7 @@ export const translations = {
     use1: 'Décrivez votre idée avec vos propres mots.', use2: 'Répondez uniquement aux questions utiles.', use3: 'Relisez, modifiez et exportez votre prompt.',
     exampleTitle: 'Exemple : tableau de bord marketing', exampleText: 'Combinez les rapports de campagne pour comparer les dépenses, prospects, conversions, revenus et retour sur investissement.',
     close: 'Fermer', created: 'Créé par Carlos Reyes', contact: 'Contacter sur GitHub', words: 'mots', answer: 'Écrivez votre réponse ici...',
-    currentIdea: 'Idée actuelle', aboutDescription: "Un outil gratuit et respectueux de la vie privée qui transforme expériences et idées en instructions structurées pour l’IA. Aucun compte, base de données ou suivi n’est requis.", openIssue: 'Ouvrir un ticket',
+    currentIdea: 'Idée actuelle', additionalContext: 'Contexte supplémentaire', aboutDescription: "Un outil gratuit et respectueux de la vie privée qui transforme expériences et idées en instructions structurées pour l’IA. Aucun compte, base de données ou suivi n’est requis.", openIssue: 'Ouvrir un ticket',
     q1: 'Qui utilisera ce projet et que faut-il rendre accessible ou facile ?', q2: 'Quel est le résultat le plus important à atteindre ?',
     q3: 'Quelles fonctions ou quels livrables sont essentiels ?', q4: 'Quelles informations, compétences ou ressources pouvez-vous fournir ?',
     q5: 'Existe-t-il des limites de temps, budget, technologie, confidentialité, sécurité ou réglementation ?', q6: 'Comment saurez-vous que le résultat est utile et réussi ?',
@@ -58,7 +58,7 @@ export const translations = {
     use1: 'Beschreibe deine Idee in eigenen Worten.', use2: 'Beantworte nur hilfreiche Fragen.', use3: 'Prüfe, bearbeite und exportiere deinen Prompt.',
     exampleTitle: 'Beispiel: Marketing-Leistungsübersicht', exampleText: 'Kampagnenberichte kombinieren, um Ausgaben, Leads, Conversions, Umsatz und Kapitalrendite zu vergleichen.',
     close: 'Schließen', created: 'Erstellt von Carlos Reyes', contact: 'Kontakt auf GitHub', words: 'Wörter', answer: 'Schreibe deine Antwort hier...',
-    currentIdea: 'Aktuelle Idee', aboutDescription: 'Ein kostenloses, datenschutzfreundliches Tool, das Erfahrungen und Ideen in strukturierte Anweisungen für KI umwandelt. Kein Konto, keine Datenbank und kein Tracking erforderlich.', openIssue: 'Issue eröffnen',
+    currentIdea: 'Aktuelle Idee', additionalContext: 'Zusätzlicher Kontext', aboutDescription: 'Ein kostenloses, datenschutzfreundliches Tool, das Erfahrungen und Ideen in strukturierte Anweisungen für KI umwandelt. Kein Konto, keine Datenbank und kein Tracking erforderlich.', openIssue: 'Issue eröffnen',
     q1: 'Wer wird dieses Projekt nutzen, und was sollte zugänglich oder einfach sein?', q2: 'Was ist das wichtigste Ergebnis, das dieses Projekt erreichen soll?',
     q3: 'Welche Funktionen oder Ergebnisse sind unverzichtbar?', q4: 'Welche Informationen, Fachkenntnisse oder Materialien kannst du bereitstellen?',
     q5: 'Gibt es Grenzen bei Zeit, Budget, Technik, Datenschutz, Sicherheit oder Vorschriften?', q6: 'Woran erkennst du, dass das Ergebnis nützlich und erfolgreich ist?',
@@ -71,7 +71,7 @@ export const translations = {
     add: '添加到提示词', cancel: '取消', detected: '我们将其理解为', professional: '专业项目', personal: '个人项目', useTitle: '从想法到实用需求说明',
     use1: '用自己的话描述想法。', use2: '只回答有助于完善想法的问题。', use3: '检查、编辑并安全导出提示词。', exampleTitle: '示例：营销绩效仪表板',
     exampleText: '汇总营销活动报告，比较支出、潜在客户、转化率、收入和投资回报率。', close: '关闭', created: 'Carlos Reyes 创建', contact: '通过 GitHub 联系',
-    currentIdea: '当前想法', aboutDescription: '一款免费且注重隐私的工具，可将经验和想法转化为面向人工智能的结构化指令。无需账户、数据库或跟踪。', openIssue: '提交问题',
+    currentIdea: '当前想法', additionalContext: '补充背景', aboutDescription: '一款免费且注重隐私的工具，可将经验和想法转化为面向人工智能的结构化指令。无需账户、数据库或跟踪。', openIssue: '提交问题',
     words: '字', answer: '在此输入回答……', q1: '谁会使用这个项目？哪些方面需要易用或无障碍？', q2: '这个项目最重要的成果是什么？',
     q3: '哪些功能或交付成果必不可少？', q4: '你能提供哪些信息、专业知识或材料？', q5: '时间、预算、技术、隐私、安全或法规方面有哪些限制？', q6: '你将如何判断结果是否实用且成功？',
   },
@@ -85,7 +85,7 @@ export const translations = {
     use2: 'أجب فقط عن الأسئلة التي تحسنها.', use3: 'راجع وعدّل وصدّر مطالبتك بأمان.', exampleTitle: 'مثال: لوحة أداء التسويق',
     exampleText: 'دمج تقارير الحملات لمقارنة الإنفاق والعملاء المحتملين والتحويلات والإيرادات والعائد على الاستثمار.', close: 'إغلاق', created: 'من إنشاء Carlos Reyes',
     contact: 'التواصل عبر GitHub', words: 'كلمات', answer: 'اكتب إجابتك هنا...', q1: 'من سيستخدم هذا المشروع، وما الذي يجب أن يكون سهلاً أو متاحاً له؟',
-    currentIdea: 'الفكرة الحالية', aboutDescription: 'أداة مجانية تراعي الخصوصية وتحول الخبرات والأفكار إلى تعليمات منظمة للذكاء الاصطناعي. لا تتطلب حساباً أو قاعدة بيانات أو تتبعاً.', openIssue: 'فتح مشكلة',
+    currentIdea: 'الفكرة الحالية', additionalContext: 'سياق إضافي', aboutDescription: 'أداة مجانية تراعي الخصوصية وتحول الخبرات والأفكار إلى تعليمات منظمة للذكاء الاصطناعي. لا تتطلب حساباً أو قاعدة بيانات أو تتبعاً.', openIssue: 'فتح مشكلة',
     q2: 'ما أهم نتيجة يجب أن يحققها المشروع؟', q3: 'ما القدرات أو المخرجات الأساسية؟', q4: 'ما المعلومات أو الخبرات أو المواد التي يمكنك توفيرها؟',
     q5: 'هل توجد قيود في الوقت أو الميزانية أو التقنية أو الخصوصية أو السلامة أو اللوائح؟', q6: 'كيف ستعرف أن النتيجة مفيدة وناجحة؟',
   },
@@ -93,6 +93,7 @@ export const translations = {
 
 export type Language = keyof typeof translations
 export type CopyKey = keyof typeof translations.en
+export type Translate = (key: CopyKey) => string
 
 export const languageNames: Record<Language, string> = {
   en: 'English', es: 'Español', fr: 'Français', de: 'Deutsch', zh: '中文', ar: 'العربية',
