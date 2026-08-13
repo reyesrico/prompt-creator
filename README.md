@@ -18,7 +18,7 @@ The app is designed for professionals across finance, health, science, technolog
 - Safe `.md` export and one-click clipboard copy
 - English, Spanish, French, German, Chinese, and Arabic UI, including RTL layout
 - User-controlled light and dark themes initialized from the operating-system preference
-- Built-in instructions and a complete autism-friendly learning app example
+- Built-in instructions and a complete marketing performance dashboard example
 - No database, accounts, analytics, server calls, or browser storage
 
 ## Privacy
